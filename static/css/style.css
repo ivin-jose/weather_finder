@@ -1,0 +1,33 @@
+/*font-family: 'Chakra Petch', sans-serif;
+font-family: 'Fasthand', cursive;
+font-family: 'Roboto Slab', serif;*/
+main {
+	overflow: hidden;
+}
+nav ul li {
+	padding: 0px 40px;
+    list-style: none;
+}
+nav ul li a {
+	color: black;
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+nav ul li a:hover {
+	color: white;
+	text-decoration: none;
+}
+nav ul {
+	display: flex;
+    align-items: center;
+}
+.nav-div {
+	padding: 20px 0px;
+
+}
+.logo_img {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
