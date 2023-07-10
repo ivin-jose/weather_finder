@@ -1,5 +1,142 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div class="weather-main">
+	<div class="weather-search-div">
+		<div class="weather-search-div-1">
+			<form name="form-city-name" method="POST">
+				<input type="text" name="city-name" placeholder="Enter City, Country names.." class="city-input" required/>
+				<input type="submit" value="Check" class="city-submit">
+			</form>
+		</div>
+	</div>
+
+	<div class="weather-ouput row">
+		<div class="col-md-6" style="max-width: 40% !important;">
+			<div class="weather-card">
+				<div class="box">
+					<div class='wave -one'></div>
+					<div class='wave -two'></div>
+					<div class='wave -three'></div>
+					<div class="weathercon"><i class='fas fa-sun' style='color: #d36326;'></i></div>
+					<div class="info">
+						<h2 class="location">SUNNYVILLE</h2>
+						<p class="date">MONDAY | SEP 12 | 12:34</p>
+						<h1 class="temp">25 &deg;C | 77 &deg;F</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 weather-day-box-main"  style="max-width: 60% !important";>
+			<div class="row">
+				<div class="col-md-12 weather-day-box-1">
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 weather-day-box-1">
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span></div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span></div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+					<div class="weather-day-box">
+						<div class="weather-day-icon">
+							<div class="weather-day-icon-1"><p>02 sep</p></div>
+							<div class="weather-day-icon-2"></div>
+						</div>
+						<div class="weather-day-details">
+							<div class="weather-day-details-temp"><span class="day-dgr">25 &deg;C </span> </div>
+							<div class="weather-day-details-text"> Cloudy</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 {% endblock %}
